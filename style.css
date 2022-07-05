@@ -45,9 +45,11 @@ div.hdln {
 .name {
 	font-family: Ubuntu;
 	text-align: center;
+	color: white;
 }
 .ctr {
 	text-align: center;
+	color: white;
 }
 .navg {
     text-align: center;
