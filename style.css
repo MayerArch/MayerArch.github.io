@@ -51,6 +51,9 @@ div.hdln {
 	text-align: center;
 	color: white;
 }
+.hd2 {
+display: flex;
+}
 .navg {
     text-align: center;
 	margin-top: 10px;
