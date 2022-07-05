@@ -76,6 +76,10 @@ div.hdln {
 .rctr {
 	text-align: right;	
 }
+.mctr {
+	margin-left: auto;
+	margin-right: auto;
+}
 nav.lctr {
 	text-align: left;
 	padding: 0px 25px 15px;
