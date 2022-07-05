@@ -5,7 +5,7 @@
 	outline:0;
 }
 body {
-	background-color: rgb(127, 255, 212);
+	background-color: black;
 }
 .menu {
     text-align: center;
@@ -32,15 +32,15 @@ body {
     border-style: solid;
 }
 .header {
-	height: 54px;
+	height: 74px;
 }
 div.hd1 {
-	height: 50px;
-	background-color: rgb(0, 191, 255);
+	height: 70px;
+	background-color: black;
 }
 div.hdln {
 	height: 2px;
-	background-color: black;
+	background-color: white;
 }
 .name {
 	font-family: Ubuntu;
