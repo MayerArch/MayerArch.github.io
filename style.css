@@ -42,7 +42,7 @@ div.hdln {
 	height: 2px;
 	background-color: black;
 }
-.qn {
+.name {
 	font-family: Ubuntu;
 	text-align: center;
 }
@@ -58,13 +58,5 @@ div.hdln {
 }
 @font-face {
 	font-family: Ubuntu;
-	src: url(https://qnezor.github.io/files/fonts/Ubuntu.ttf);
-} 
-@font-face {
-	font-family: PoiretOne;
-	src: url(https://qnezor.github.io/files/fonts/PoiretOne.ttf);
-} 
-@font-face {
-	font-family: OpenSans;
-	src: url(https://qnezor.github.io/files/fonts/OpenSans.ttf);
+	src: url(https://fonts.googleapis.com/css2?family=Ubuntu&display=swap);
 } 
