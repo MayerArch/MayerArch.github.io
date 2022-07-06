@@ -41,13 +41,10 @@ body {
 	width: 30px;
 	padding: 0px 22px;
 }
-div.hd1 {
-	height: 70px;
-	background-color: black;
-}
-div.hdln {
-	height: 2px;
-	background-color: white;
+.cl2 {
+	height: 30px;
+	width: 30px;
+	padding: 0px 22px;
 }
 .name {
 	background-color: white;
