@@ -98,5 +98,5 @@ align-items: center;
 }
 @font-face {
   font-family: 'Ubuntu';
-  src: url(https://mayerarch.github.io/files/fonts/Ubuntu.ttf) format('woff2');
+  src: url(https://mayerarch.github.io/files/fonts/Ubuntu.ttf);
 }
