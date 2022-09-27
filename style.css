@@ -60,6 +60,13 @@ body {
 	color: black;
 	padding: 5px 0px;
 }
+.namect {
+	text-align: center;
+	font-family: Ubuntu;
+	background-color: white;
+color: black;
+padding: 2x 10px;
+}
 .mahd {
 	background-color: white;
 	font-family: Ubuntu;
