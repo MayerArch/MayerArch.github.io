@@ -98,7 +98,12 @@ body {
 .ctr-red {
 	font-family: Ubuntu;
 	text-align: center;
-    color: red;
+        color: red;
+}
+.left-ctr-white {
+	text-align: left;
+	font-family: Ubuntu;
+        color: white;
 }
 .left-ctr-pd0-25-15 {
 	text-align: left;
