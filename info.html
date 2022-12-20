@@ -9,50 +9,60 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <style>
-  .ctr2 {
+  .sp-ctr {
     font-family: Ubuntu;
     text-align: center;
     color: white;
-    padding: 0px 0px 20px 0px;
+    padding: 5px 0px;
   }
 
-  .ctr3 {
-    font-family: Ubuntu;
-    text-align: center;
-    color: white;
-    padding: 20px 0px 0px 0px;
+  .link-inv {
+    background-color: white;
+    text-decoration: none;
+    color: black;
+  }
+
+  .link-inv:hover {
+    filter: invert(1);
   }
 </style>
 
 <body>
-  <header class="header">
-    <div class="header2">
-      <a href="https://mayerArch.github.io"><img src="https://mayerarch.github.io/files/pic/logo.png" width="60px"
-          height="60px" alt="MayerArch"></a>
-      <h1 class="bw-none"><a href="https://mayerArch.github.io" class="bw-none">MayerArch</a></h1>
-    </div>
+  <header
+    style="background: linear-gradient(to top, rgb(58, 58, 58), rgb(112, 112, 112)); justify-content: center; display: flex; align-items: center;">
+    <a href="https://mayerArch.github.io">
+      <img class="hd-inv" src="files/pic/logo.png" width="60px" height="60px">
+    </a>
+    <a href="https://mayerArch.github.io" style="text-decoration: none;">
+      <h1 class="hd-inv" style="color: white; font-family: ubuntu;">
+        MayerArch
+      </h1>
+    </a>
   </header>
-  <nav class="left-ctr-pd0-25-15">
-    <a href="https://mayerArch.github.io/links"><img class="navg-icon" src="files/pic/link.svg" alt="ссылки"></a>
-    <a href="https://mayerArch.github.io/info"><img class="navg-icon" src="files/pic/info.svg" alt="информация"></a>
-    <a href="https://mayerArch.github.io/donate"><img class="navg-icon" src="files/pic/ruble.svg" alt="донат"></a>
-    <a href="https://mayerArch.github.io/secret" target="_blank"><img class="navg-icon" src="files/pic/egg.svg"></a>
-  </nav>
-  <h1 style="font-size:30px" class="ctr2"><mark class="bw-none">MayerArch</mark> - архив, созданный для облегчения
+  <div style="background-color: rgb(58, 58, 58); text-align: center;">
+    <a class="mamenu" href="https://mayerArch.github.io/links">ссылки</a>
+    <a class="mamenu" href="https://mayerArch.github.io/info">информация</a>
+    <a class="mamenu" href="https://mayerArch.github.io/donate">донат</a>
+  </div>
+  <hr style="border: solid rgb(58, 58, 58);">
+
+  <h1 style="font-size: 30px; margin-top: 10px;" class="ctr-white"><mark
+      style="background-color: white">MayerArch</mark> - архив, созданный для облегчения
     поиска фотографий и видеороликов Полины Майер</h1>
-  <h1 style="font-size:30px" class="ctr-pd5-0">Главная проблема, с которой может столкнуться человек при поиске
-    информации о Полине - удалённые треды.</h1>
-  <h1 style="font-size:30px" class="ctr-pd5-0">Мы перерываем эти треды и перезаливаем фотографии и видеоролики на более
-    открытые ресурсы.</h1>
-  <h1 style="font-size:30px" class="ctr-pd5-0">Тем самым мы сохраняем хоть и малую, но все-таки "интересную" часть
+  <h1 style="font-size: 30px; margin-top: 10px;" class="ctr-white">Главная проблема, с которой может столкнуться человек
+    при поиске
+    информации о Полине - удалённые треды.<br>Мы перерываем эти треды и перезаливаем фотографии и видеоролики на более
+    открытые ресурсы.<br>Тем самым мы сохраняем хоть и малую, но все-таки "интересную" часть
     интернета.</h1>
-  <h1 style="font-size:30px" class="ctr3">Лучший способ помочь нам - <a href="https://mayerArch.github.io/donate"
-      class="bw-none">донат</a></h1>
-  <p class="ctr-pd5-0">часть денег с донатов пойдёт на словарь русского языка)</p>
-  <p class="ctr3"><img src="https://mayerarch.github.io/files/pic/1.png" width="400px" height="300px"
-      alt="просто картинка"></p>
-  <h1 style="font-size:25px" class="ctr3">Архив создал <a class="bw-none" href="https://qnezor.github.io"
-      target="_blank">qnezor</a> в 2022 году</a></h1>
+  <h1 style="font-size: 30px; margin-top: 10px;" class="ctr-white">Лучший способ помочь нам - <a class="link-inv"
+      href="https://mayerArch.github.io/donate" class="bw-none">донат</a></h1>
+  <p class="ctr-white">часть денег с донатов пойдёт на словарь русского языка)</p>
+  <p class="ctr-white" style="margin-top: 10px;"><img src="https://mayerarch.github.io/files/pic/1.png" width="300px"
+      height="225px" alt="просто картинка"></p>
+  <h1 style="font-size: 25px; " class="sp-ctr">автор проекта - <a class="link-inv" href="https://qnezor.github.io"
+      target="_blank">qnezor</a></h1>
+  <h1 style="font-size:25px" class="sp-ctr">проект входит в состав .ask foundation<a class="bw-none"></h1>
+  <h2 class="ctr-white" style="margin-top: 10px;">2022-2023</h2>
 </body>
 
 </html>
