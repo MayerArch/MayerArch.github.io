@@ -23,10 +23,6 @@ body {
 	color: red;
 }
 
-.hd-inv:hover {
-	filter: invert(1);
-}
-
 .ctr-white {
 	font-family: Ubuntu;
 	text-align: center;
