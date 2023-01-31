@@ -1,0 +1,26 @@
+a.anim {
+	animation-duration: 4s;
+	animation-name: anim1;
+	animation-iteration-count: infinite;
+}
+
+@keyframes anim1 {
+	0% {
+		color: yellow; background-color: black;
+	}
+
+	25% {
+		color: rgb(0, 238, 255); background-color: black;
+	}
+
+	50% {
+		color: red; background-color: black;
+	}
+
+	75% {
+		color: rgb(0, 238, 255); background-color: black;
+	}
+	100% {
+		color: yellow; background-color: black;
+	}
+}
