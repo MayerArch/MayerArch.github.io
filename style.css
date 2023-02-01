@@ -10,17 +10,11 @@ body {
 }
 
 .mamenu {
-	text-align: center;
-	justify-content: center;
-	margin: auto;
-	padding: 0px 10px;
-	color: white;
-	font-family: Ubuntu;
-	text-decoration: none;
+	transition: .5s;
 }
 
 .mamenu:hover {
-	color: red;
+	filter: blur(3px);
 }
 
 .ctr-white {
