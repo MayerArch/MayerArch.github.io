@@ -70,3 +70,13 @@ a.anim {
 		color: yellow; background-color: black;
 	}
 }
+
+@keyframes blurbutton {
+	0% {
+		filter: blur(0);
+	}
+
+	100% {
+		filter: blur(3px);
+	}
+}
