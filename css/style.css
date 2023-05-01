@@ -1,0 +1,71 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	outline: 0;
+}
+
+body {
+	background-color: black;
+}
+
+.mamenu {
+	transition: .5s;
+}
+
+.mamenu:hover {
+	filter: blur(3px);
+}
+
+.ctr-white {
+	font-family: Ubuntu;
+	text-align: center;
+	color: white;
+}
+
+.ctr-red {
+	font-family: Ubuntu;
+	text-align: center;
+	color: red;
+}
+
+.zakruglenie {
+	border-radius: 10px;
+}
+
+a.anim {
+	animation-duration: 4s;
+	animation-name: anim1;
+	animation-iteration-count: infinite;
+}
+
+@keyframes anim1 {
+	0% {
+		color: yellow; background-color: black;
+	}
+
+	25% {
+		color: rgb(0, 238, 255); background-color: black;
+	}
+
+	50% {
+		color: red; background-color: black;
+	}
+
+	75% {
+		color: rgb(0, 238, 255); background-color: black;
+	}
+	100% {
+		color: yellow; background-color: black;
+	}
+}
+
+@keyframes blurbutton {
+	0% {
+		filter: blur(0);
+	}
+
+	100% {
+		filter: blur(3px);
+	}
+}
