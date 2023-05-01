@@ -32,6 +32,15 @@ body {
 .zakruglenie {
 	border-radius: 10px;
 }
+@font-face {
+	font-family: 'Ubuntu';
+	src: url(files/fonts/Ubuntu.ttf);
+}
+
+@font-face {
+	font-family: 'Etna';
+	src: url(files/fonts/Etna.otf);
+}
 
 a.anim {
 	animation-duration: 4s;
