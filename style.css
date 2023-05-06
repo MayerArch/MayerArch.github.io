@@ -83,18 +83,9 @@ body {
 	}
 }
 
-.sn {
-	background-color: white;
-	color: black;
-}
-
 .button {
 	filter: invert(1);
 	margin-left: 20px;
-}
-
-.links {
-	
 }
 
 .ctr-white {
