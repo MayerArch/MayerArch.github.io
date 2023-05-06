@@ -2,66 +2,72 @@
 <html>
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" sizes="192x192" href="files/pic/logo.png">
-  <title>MayerArch</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" sizes="192x192" href="files/pic/logo.png">
+    <title>MayerArch</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <style>
-  .sp-ctr {
-    font-family: Ubuntu;
-    text-align: center;
-    color: white;
-    padding: 5px 0px;
-  }
+    .icoh {
+        width: 95px;
+        height: 95px;
+        margin: 0px 10px;
+        transition: .5s;
+    }
 
-  .link-inv {
-    background-color: white;
-    text-decoration: none;
-    color: black;
-  }
+    .icoh:hover {
+        filter: blur(3px);
+    }
 
-  .link-inv:hover {
-    filter: invert(1);
-  }
+    .stpc {
+        background-color: white;
+        font-family: ubuntu;
+        text-decoration: none;
+        color: black;
+        transition: .5s;
+    }
 
-  a.qn:hover {
-    filter: invert(1);
-  }
+    .stpc:hover {
+        filter: invert(1);
+    }
 </style>
 
 <body>
-  <header style="justify-content: left; display: flex; align-items: center; margin: 10px;">
-    <a href="https://mayerArch.github.io" style="text-decoration: none;">
-      <h1 class="ctr-white" style="padding-left: 5px;">MayerArch</h1>
-    </a>
-    <a class="mamenu" href="https://mayerArch.github.io/links"><img class="button" src="files/pic/link.svg" width="40px"
-        height="40px" style="margin-left: 40px;"></a>
-    <a class="mamenu" href="https://mayerArch.github.io/info"><img class="button" src="files/pic/info.svg" width="33px"
-        height="33px" style="margin-left: 20px;"></a>
-    <a class="mamenu" href="https://mayerArch.github.io/donate"><img class="button" src="files/pic/ruble.svg"
-        width="33px" height="33px" style="margin-left: 20px;"></a>
-  </header>
-  <hr style="border: 1px solid white;">
-
-  <h1 style="font-size: 30px; margin-top: 10px;" class="ctr-white"><mark
-      style="background-color: white">MayerArch</mark> - архив, созданный для облегчения
-    поиска фотографий и видеороликов Полины Майер</h1>
-  <h1 style="font-size: 30px; margin-top: 10px;" class="ctr-white">Главная проблема, с которой может столкнуться человек
-    при поиске
-    информации о Полине - удалённые треды.<br>Мы перерываем эти треды и перезаливаем фотографии и видеоролики на более
-    открытые ресурсы.<br>Тем самым мы сохраняем хоть и малую, но все-таки "интересную" часть
-    интернета.</h1>
-  <h1 style="font-size: 30px; margin-top: 10px;" class="ctr-white">Лучший способ помочь нам - <a class="link-inv"
-      href="https://mayerArch.github.io/donate" class="bw-none">донат</a></h1>
-  <p class="ctr-white">часть денег с донатов пойдёт на словарь русского языка)</p>
-  <p class="ctr-white" style="margin-top: 10px;"><img src="https://mayerarch.github.io/files/pic/1.png" width="300px"
-      height="225px" alt="просто картинка"></p>
-  <h1 style="font-size:25px" class="sp-ctr">почта для связи: dont.ask.me@mail.ru<a class="bw-none"></h1>
-  <h3 class="ctr-white" style="margin-top: 10px;"><a class="qn" href="https://qnezor.github.io/"
-      style="color: rgb(255, 172, 103); text-decoration: none;" target="_blank">qnezor</a> и <a class="anim"
-      href="https://ult11.github.io/" style="color: white; text-decoration: none;" target="_blank">ult11</a>, 2023</h3>
+    <header class="header">
+        <div class="header_logo">
+            <a href="https://mayerarch.github.io/" style="color: black; text-decoration: none;">
+                <h1 style="font-family: PermanentMarker; font-size: 50px;">M</h1>
+            </a>
+        </div>
+        <div class="header_menu">
+            <a href="https://mayerArch.github.io/links"><img class="button" src="files/pic/link.svg" width="40px"
+                    height="40px"></a>
+            <a href="https://mayerArch.github.io/info"><img class="button" src="files/pic/info.svg" width="40px"
+                    height="40px"></a>
+            <a href="https://mayerArch.github.io/donat"><img class="button" src="files/pic/ruble.svg" width="40px"
+                    height="40px"></a>
+        </div>
+    </header>
+    <div>
+        <h1 class="text_name"><mark style="background-color: white;">MayerArch</mark> - архив, созданный для облегчения
+            поиска фотографий и видеороликов Полины Майер</h1>
+        <h1 style="font-size: 30px; margin-top: 10px;" class="ctr-white">Главная проблема, с которой может столкнуться
+            человек
+            при поиске
+            информации о Полине - удалённые треды.<br>Мы перерываем эти треды, а потом перезаливаем фотографии и
+            видеоролики на
+            более
+            доступные ресурсы.<br>Тем самым мы сохраняем хоть и малую, но все-таки "интересную" часть
+            рунета.</h1>
+    </div>
+    <p class="ctr-white" style="margin-top: 10px;"><img src="https://mayerarch.github.io/files/pic/1.png" width="300px" height="225px" alt="просто картинка"></p>
+    <h3 class="text_name">почта для связи: dont.ask.me@mail.ru</h1>
+        <h3 class="ctr-white" style="margin-top: 10px;">Don'tAsk, 2023
+            <br>при поддержке <a class="qn" href="https://qnezor.github.io/"
+                style="color: rgb(255, 172, 103); text-decoration: none;" target="_blank">qnezor</a> и .ask foundation
+        </h3>
 </body>
 
 </html>
