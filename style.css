@@ -9,6 +9,11 @@ body {
 	background-color: black;
 }
 
+.name {
+	font-family: PermanentMarker;
+	color: white;
+}
+
 @media screen and (orientation: landscape) {
 	.header {
 		height: 100px;
